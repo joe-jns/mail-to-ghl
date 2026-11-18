@@ -1,0 +1,6 @@
+*.paquet.json
+*.historique.json
+*.editorData.json
+mail-to-ghl-*.js
+mail-to-ghl-*.png
+node_modules/

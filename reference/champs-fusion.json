@@ -1,0 +1,2707 @@
+[
+ {
+  "menuId": "customValues",
+  "menuTitle": "Valeurs personnalisées",
+  "items": [
+   {
+    "label": "Contact",
+    "value": "Contact",
+    "children": [
+     {
+      "label": "Nom complet",
+      "value": "{{contact.name}}"
+     },
+     {
+      "label": "Prénom",
+      "value": "{{contact.first_name}}"
+     },
+     {
+      "label": "Nom de famille",
+      "value": "{{contact.last_name}}"
+     },
+     {
+      "label": "E-mail",
+      "value": "{{contact.email}}"
+     },
+     {
+      "label": "Téléphone",
+      "value": "{{contact.phone}}"
+     },
+     {
+      "label": "Nom de l'Entreprise",
+      "value": "{{contact.company_name}}"
+     },
+     {
+      "label": "Adresse complète",
+      "value": "{{contact.full_address}}"
+     },
+     {
+      "label": "Adresse 1",
+      "value": "{{contact.address1}}"
+     },
+     {
+      "label": "Ville",
+      "value": "{{contact.city}}"
+     },
+     {
+      "label": "État",
+      "value": "{{contact.state}}"
+     },
+     {
+      "label": "Code postal",
+      "value": "{{contact.postal_code}}"
+     },
+     {
+      "label": "Date de naissance",
+      "value": "{{contact.date_of_birth}}"
+     },
+     {
+      "label": "Source",
+      "value": "{{contact.source}}"
+     },
+     {
+      "label": "Site web",
+      "value": "{{contact.website}}"
+     },
+     {
+      "label": "Type de contact",
+      "value": "{{contact.type}}"
+     },
+     {
+      "label": "Champs personnalisés",
+      "value": "Champs personnalisés",
+      "children": []
+     }
+    ],
+    "key": "contact"
+   },
+   {
+    "label": "entreprise",
+    "value": "entreprise",
+    "children": [
+     {
+      "label": "Nom",
+      "value": "{{business.name}}"
+     },
+     {
+      "label": "E-mail",
+      "value": "{{business.email}}"
+     },
+     {
+      "label": "Téléphone",
+      "value": "{{business.phone}}"
+     },
+     {
+      "label": "Site web",
+      "value": "{{business.website}}"
+     },
+     {
+      "label": "Adresse",
+      "value": "{{business.address}}"
+     },
+     {
+      "label": "Ville",
+      "value": "{{business.city}}"
+     },
+     {
+      "label": "État",
+      "value": "{{business.state}}"
+     },
+     {
+      "label": "Pays",
+      "value": "{{business.country}}"
+     },
+     {
+      "label": "Code postal",
+      "value": "{{business.postalCode}}"
+     },
+     {
+      "label": "Description",
+      "value": "{{business.description}}"
+     }
+    ],
+    "key": "business"
+   },
+   {
+    "label": "Utilisateur",
+    "value": "Utilisateur",
+    "children": [
+     {
+      "label": "Nom complet",
+      "value": "{{user.name}}"
+     },
+     {
+      "label": "Prénom",
+      "value": "{{user.first_name}}"
+     },
+     {
+      "label": "Nom de famille",
+      "value": "{{user.last_name}}"
+     },
+     {
+      "label": "E-mail",
+      "value": "{{user.email}}"
+     },
+     {
+      "label": "Téléphone",
+      "value": "{{user.phone}}"
+     },
+     {
+      "label": "Signature",
+      "value": "{{user.email_signature}}"
+     },
+     {
+      "label": "Lien vers le calendrier",
+      "value": "{{user.calendar_link}}"
+     },
+     {
+      "label": "Téléphone Twilio",
+      "value": "{{user.twilio_phone_number}}"
+     }
+    ]
+   },
+   {
+    "label": "Rendez-vous",
+    "value": "Rendez-vous",
+    "children": [
+     {
+      "label": "Titre",
+      "value": "{{appointment.title}}"
+     },
+     {
+      "label": "Date et heure de début",
+      "value": "{{appointment.start_time}}"
+     },
+     {
+      "label": "Date de début",
+      "value": "{{appointment.only_start_date}}"
+     },
+     {
+      "label": "Heure de début",
+      "value": "{{appointment.only_start_time}}"
+     },
+     {
+      "label": "Date et heure de fin",
+      "value": "{{appointment.end_time}}"
+     },
+     {
+      "label": "Date de fin",
+      "value": "{{appointment.only_end_date}}"
+     },
+     {
+      "label": "Fuseau horaire",
+      "value": "{{appointment.timezone}}"
+     },
+     {
+      "label": "Lien d'annulation",
+      "value": "{{appointment.cancellation_link}}"
+     },
+     {
+      "label": "Lien de reprogrammation",
+      "value": "{{appointment.reschedule_link}}"
+     },
+     {
+      "label": "Lieu de la réunion",
+      "value": "{{appointment.meeting_location}}"
+     },
+     {
+      "label": "Remarques",
+      "value": "{{appointment.notes}}"
+     },
+     {
+      "label": "Ajouter à Google Agenda",
+      "value": "{{appointment.add_to_google_calendar}}"
+     },
+     {
+      "label": "Ajouter à iCal/Outlook",
+      "value": "{{appointment.add_to_ical_outlook}}"
+     }
+    ]
+   },
+   {
+    "label": "Campagne",
+    "value": "Campagne",
+    "children": [
+     {
+      "label": "Date et heure de l'événement",
+      "value": "{{campaign.event_date_time}}"
+     },
+     {
+      "label": "Date de l'événement",
+      "value": "{{campaign.event_date}}"
+     },
+     {
+      "label": "Heure de l'événement",
+      "value": "{{campaign.event_time}}"
+     }
+    ]
+   },
+   {
+    "label": "Message",
+    "value": "Message",
+    "children": [
+     {
+      "label": "Corps du message",
+      "value": "{{message.body}}"
+     }
+    ]
+   },
+   {
+    "label": "Compte",
+    "value": "Compte",
+    "children": [
+     {
+      "label": "Nom",
+      "value": "{{location.name}}"
+     },
+     {
+      "label": "Adresse complète",
+      "value": "{{location.full_address}}"
+     },
+     {
+      "label": "Adresse Ligne 1",
+      "value": "{{location.address}}"
+     },
+     {
+      "label": "Ville",
+      "value": "{{location.city}}"
+     },
+     {
+      "label": "État",
+      "value": "{{location.state}}"
+     },
+     {
+      "label": "Pays",
+      "value": "{{location.country}}"
+     },
+     {
+      "label": "Code postal",
+      "value": "{{location.postal_code}}"
+     },
+     {
+      "label": "E-mail",
+      "value": "{{location.email}}"
+     },
+     {
+      "label": "Téléphone",
+      "value": "{{location.phone}}"
+     },
+     {
+      "label": "Site web",
+      "value": "{{location.website}}"
+     },
+     {
+      "label": "Propriétaire",
+      "value": "{{location.logo_url}}"
+     },
+     {
+      "label": "Propriétaire",
+      "value": "Propriétaire",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{location_owner.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{location_owner.last_name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{location_owner.email}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Maintenant",
+    "value": "Maintenant",
+    "children": [
+     {
+      "label": "Seconde",
+      "value": "{{right_now.second}}"
+     },
+     {
+      "label": "Minute",
+      "value": "{{right_now.minute}}"
+     },
+     {
+      "label": "Heure au format 24 h",
+      "value": "{{right_now.hour}}"
+     },
+     {
+      "label": "Heure au format AM/PM",
+      "value": "{{right_now.hour_ampm}}"
+     },
+     {
+      "label": "Horaire au format 24 h",
+      "value": "{{right_now.time}}"
+     },
+     {
+      "label": "Horaire au format AM/PM",
+      "value": "{{right_now.time_ampm}}"
+     },
+     {
+      "label": "AM/PM",
+      "value": "{{right_now.ampm}}"
+     },
+     {
+      "label": "Jour",
+      "value": "{{right_now.day}}"
+     },
+     {
+      "label": "Jour de la semaine en toutes lettres en français",
+      "value": "{{right_now.day_of_week}}"
+     },
+     {
+      "label": "Mois",
+      "value": "{{right_now.month}}"
+     },
+     {
+      "label": "Mois en toutes lettres en anglais",
+      "value": "{{right_now.month_english}}"
+     },
+     {
+      "label": "Année",
+      "value": "{{right_now.year}}"
+     },
+     {
+      "label": "Date (mois/jour/année)",
+      "value": "{{right_now.middle_endian_date}}"
+     },
+     {
+      "label": "Date (jour/mois/année)",
+      "value": "{{right_now.little_endian_date}}"
+     }
+    ]
+   },
+   {
+    "label": "E-mail",
+    "value": "E-mail",
+    "children": [
+     {
+      "label": "Lien de désinscription",
+      "value": "{{email.unsubscribe_link}}"
+     },
+     {
+      "label": "Prévisualiser dans le navigateur",
+      "value": "{{email.view_in_browser_url}}"
+     },
+     {
+      "label": "Gestion des préférences",
+      "value": "{{email.preference_management_link}}"
+     }
+    ]
+   },
+   {
+    "label": "Contacts adhérents",
+    "value": "Contacts adhérents",
+    "children": [
+     {
+      "label": "E-mail",
+      "value": "{{membership_contact.email}}"
+     },
+     {
+      "label": "URL de connexion (lien magique)",
+      "value": "{{membership_contact.login_url}}"
+     },
+     {
+      "label": "Titre de l'offre",
+      "value": "{{membership_contact.offer_title}}"
+     },
+     {
+      "label": "URL de la catégorie",
+      "value": "{{membership_contact.category_url}}"
+     },
+     {
+      "label": "Titre du produit",
+      "value": "{{membership_contact.product_title}}"
+     },
+     {
+      "label": "Titre de la catégorie",
+      "value": "{{membership_contact.category_title}}"
+     },
+     {
+      "label": "E-mail d'assistance",
+      "value": "{{membership_contact.support_email}}"
+     },
+     {
+      "label": "Téléphone",
+      "value": "{{membership_contact.support_phone}}"
+     },
+     {
+      "label": "Nom du site",
+      "value": "{{membership_contact.site_name}}"
+     },
+     {
+      "label": "titre",
+      "value": "{{membership_contact.post_title}}"
+     },
+     {
+      "label": "URL du cours",
+      "value": "{{membership_contact.post_url}}"
+     },
+     {
+      "label": "URL du produit",
+      "value": "{{membership_contact.product_url}}"
+     },
+     {
+      "label": "URL du commentaire",
+      "value": "{{membership_contact.comment_url}}"
+     },
+     {
+      "label": "Nom du destinataire",
+      "value": "{{membership_contact.recipient_name}}"
+     },
+     {
+      "label": "URL d’évaluation",
+      "value": "{{membership_contact.assessment_url}}"
+     },
+     {
+      "label": "Score d'évaluation",
+      "value": "{{membership_contact.assessment_score}}"
+     },
+     {
+      "label": "État de l’évaluation",
+      "value": "{{membership_contact.assessment_status}}"
+     },
+     {
+      "label": "Titre de l'évaluation",
+      "value": "{{membership_contact.assessment_title}}"
+     },
+     {
+      "label": "Nom du contact",
+      "value": "{{membership_contact.contact_name}}"
+     }
+    ]
+   },
+   {
+    "label": "Shopify",
+    "value": "Shopify",
+    "children": [
+     {
+      "label": "Nombre",
+      "value": "{{order.number}}"
+     },
+     {
+      "label": "Créé le",
+      "value": "{{order.created_on}}"
+     },
+     {
+      "label": "Créé le",
+      "value": "Créé le",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{order.customer.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{order.customer.last_name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{order.customer.email}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{order.customer.phone}}"
+       }
+      ]
+     },
+     {
+      "label": "Réductions totales",
+      "value": "{{order.total_discounts}}"
+     },
+     {
+      "label": "Code de réduction",
+      "value": "{{order.discount_code}}"
+     },
+     {
+      "label": "Prix total",
+      "value": "{{order.total_price}}"
+     },
+     {
+      "label": "Sous-total",
+      "value": "{{order.subtotal_price}}"
+     },
+     {
+      "label": "Prix total d'expédition",
+      "value": "{{order.total_shipping_price}}"
+     },
+     {
+      "label": "Prix total du panier",
+      "value": "{{order.total_cart_price}}"
+     },
+     {
+      "label": "URL du statut de la commande",
+      "value": "{{order.order_status_url}}"
+     },
+     {
+      "label": "URL de paiement abandonné",
+      "value": "{{order.abandoned_checkout_url}}"
+     },
+     {
+      "label": "Adresse d'expédition",
+      "value": "{{order.shipping_address}}"
+     },
+     {
+      "label": "Adresse de facturation",
+      "value": "{{order.billing_address}}"
+     },
+     {
+      "label": "A une réduction",
+      "value": "{{order.has_discount}}"
+     },
+     {
+      "label": "Code de devise",
+      "value": "{{order.currency_code}}"
+     },
+     {
+      "label": "Devise",
+      "value": "{{order.currency}}"
+     },
+     {
+      "label": "Nécessite des informations d'expédition",
+      "value": "{{order.requires_shipping}}"
+     }
+    ]
+   },
+   {
+    "label": "Gestionnaire des affiliés",
+    "value": "Gestionnaire des affiliés",
+    "children": [
+     {
+      "label": "Nom complet",
+      "value": "{{affiliate.name}}"
+     },
+     {
+      "label": "Prénom",
+      "value": "{{affiliate.first_name}}"
+     },
+     {
+      "label": "Nom de famille",
+      "value": "{{affiliate.last_name}}"
+     },
+     {
+      "label": "E-mail",
+      "value": "{{affiliate.email}}"
+     },
+     {
+      "label": "Nom de la campagne",
+      "value": "{{affiliate.campaign_name}}"
+     },
+     {
+      "label": "Valeur de la commission",
+      "value": "{{affiliate.commission}}"
+     },
+     {
+      "label": "Lien de l'affilié",
+      "value": "{{affiliate.link}}"
+     },
+     {
+      "label": "Nom du lieu",
+      "value": "{{affiliate.location_name}}"
+     },
+     {
+      "label": "URL de l'application de portail client",
+      "value": "{{affiliate.client_portal_url}}"
+     },
+     {
+      "label": "Lien de connexion magique",
+      "value": "{{affiliate.magic_link}}"
+     }
+    ]
+   },
+   {
+    "label": "Commandes",
+    "value": "Commandes",
+    "children": [
+     {
+      "label": "ID de commande",
+      "value": "{{order.id}}"
+     },
+     {
+      "label": "Source",
+      "value": "{{order.source}}"
+     },
+     {
+      "label": "Passerelle de paiement",
+      "value": "{{order.payment_gateway}}"
+     },
+     {
+      "label": "Créé le",
+      "value": "{{order.created_on}}"
+     },
+     {
+      "label": "Mode de livraison",
+      "value": "{{order.delivery_method}}"
+     },
+     {
+      "label": "Customer",
+      "value": "Customer",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{order.customer.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{order.customer.last_name}}"
+       },
+       {
+        "label": "Nom",
+        "value": "{{order.customer.name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{order.customer.email}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{order.customer.phone}}"
+       },
+       {
+        "label": "Adresse complète",
+        "value": "{{order.customer.full_address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{order.customer.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{order.customer.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{order.customer.postal_code}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{order.customer.country}}"
+       }
+      ]
+     },
+     {
+      "label": "Adresse de facturation",
+      "value": "Adresse de facturation",
+      "children": [
+       {
+        "label": "Nom complet",
+        "value": "{{order.billing_address.full_name}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{order.billing_address.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{order.billing_address.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{order.billing_address.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{order.billing_address.postal_code}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{order.billing_address.country}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{order.billing_address.phone}}"
+       }
+      ]
+     },
+     {
+      "label": "Informations de livraison",
+      "value": "Informations de livraison",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{order.delivery.name}}"
+       },
+       {
+        "label": "Adresse complète",
+        "value": "{{order.delivery.full_address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{order.delivery.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{order.delivery.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{order.delivery.postal_code}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{order.delivery.country}}"
+       },
+       {
+        "label": "Instructions de livraison",
+        "value": "{{order.delivery.delivery_instructions}}"
+       },
+       {
+        "label": "Frais de retrait",
+        "value": "{{order.delivery.pickup_charges}}"
+       },
+       {
+        "label": "Taxe de retrait",
+        "value": "{{order.delivery.pickup_tax}}"
+       },
+       {
+        "label": "Montant total du retrait",
+        "value": "{{order.delivery.pickup_total_amount}}"
+       }
+      ]
+     },
+     {
+      "label": "Code de devise",
+      "value": "{{order.currency_code}}"
+     },
+     {
+      "label": "Symbole de devise",
+      "value": "{{order.currency_symbol}}"
+     },
+     {
+      "label": "Prix total du panier",
+      "value": "{{order.total_cart_price}}"
+     },
+     {
+      "label": "A une réduction",
+      "value": "{{order.has_discount}}"
+     },
+     {
+      "label": "Réductions totales",
+      "value": "{{order.total_discount}}"
+     },
+     {
+      "label": "Code de réduction",
+      "value": "{{order.discount_code}}"
+     },
+     {
+      "label": "Prix total",
+      "value": "{{order.total_price}}"
+     },
+     {
+      "label": "facturation diverses",
+      "value": "{{order.miscellaneous_charges}}"
+     },
+     {
+      "label": "URL du statut de la commande",
+      "value": "{{order.order_status_url}}"
+     }
+    ]
+   },
+   {
+    "label": "Facture",
+    "value": "Facture",
+    "children": [
+     {
+      "label": "Entreprise",
+      "value": "Entreprise",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{invoice.company.name}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{invoice.company.phone}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{invoice.company.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{invoice.company.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{invoice.company.state}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{invoice.company.country}}"
+       },
+       {
+        "label": "Site web",
+        "value": "{{invoice.company.website}}"
+       },
+       {
+        "label": "Logo",
+        "value": "{{invoice.company.logo}}"
+       }
+      ]
+     },
+     {
+      "label": "Client",
+      "value": "Client",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{invoice.customer.name}}"
+       },
+       {
+        "label": "Prénom",
+        "value": "{{invoice.customer.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{invoice.customer.last_name}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{invoice.customer.phone}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{invoice.customer.email}}"
+       },
+       {
+        "label": "Entreprise",
+        "value": "{{invoice.customer.company}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{invoice.customer.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{invoice.customer.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{invoice.customer.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{invoice.customer.postal_code}}"
+       }
+      ]
+     },
+     {
+      "label": "Expéditeur",
+      "value": "Expéditeur",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{invoice.sender.name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{invoice.customer.email}}"
+       }
+      ]
+     },
+     {
+      "label": "Nom",
+      "value": "{{invoice.name}}"
+     },
+     {
+      "label": "Nombre",
+      "value": "{{invoice.number}}"
+     },
+     {
+      "label": "Date d'émission",
+      "value": "{{invoice.issue_date}}"
+     },
+     {
+      "label": "Date d'échéance",
+      "value": "{{invoice.due_date}}"
+     },
+     {
+      "label": "Sous-total",
+      "value": "{{invoice.sub_total}}"
+     },
+     {
+      "label": "Currency Code",
+      "value": "{{invoice.currency_code}}"
+     },
+     {
+      "label": "Sub Total",
+      "value": "{{invoice.sub_total}}"
+     },
+     {
+      "label": "Montant de la réduction",
+      "value": "{{invoice.discount_amount}}"
+     },
+     {
+      "label": "Montant de la taxe",
+      "value": "{{invoice.tax_amount}}"
+     },
+     {
+      "label": "Montant total",
+      "value": "{{invoice.total_amount}}"
+     },
+     {
+      "label": "Titre",
+      "value": "{{invoice.title}}"
+     },
+     {
+      "label": "URL",
+      "value": "{{invoice.url}}"
+     },
+     {
+      "label": "Informations de carte",
+      "value": "Informations de carte",
+      "children": [
+       {
+        "label": "Marque de carte",
+        "value": "{{invoice.card.brand}}"
+       },
+       {
+        "label": "Les 4 derniers",
+        "value": "{{invoice.card.last4}}"
+       }
+      ]
+     },
+     {
+      "label": "Montant dû",
+      "value": "{{invoice.amount_due}}"
+     },
+     {
+      "label": "Montant payé",
+      "value": "{{invoice.amount_paid}}"
+     },
+     {
+      "label": "Calendrier de paiement",
+      "value": "Calendrier de paiement",
+      "children": [
+       {
+        "label": "Jour dû du calendrier en cours",
+        "value": "{{invoice.paymentSchedule.currentScheduleDueDate}}"
+       },
+       {
+        "label": "Quantité du calendrier en cours",
+        "value": "{{invoice.paymentSchedule.currentScheduleAmount}}"
+       },
+       {
+        "label": "Montant dû",
+        "value": "{{invoice.paymentSchedule.amountDue}}"
+       },
+       {
+        "label": "Numéro de calendrier en cours",
+        "value": "{{invoice.paymentSchedule.currentScheduleNumber}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Estimation",
+    "value": "Estimation",
+    "children": [
+     {
+      "label": "Entreprise",
+      "value": "Entreprise",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{estimate.company.name}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{estimate.company.phone}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{estimate.company.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{estimate.company.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{estimate.company.state}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{estimate.company.country}}"
+       },
+       {
+        "label": "Site web",
+        "value": "{{estimate.company.website}}"
+       },
+       {
+        "label": "Logo",
+        "value": "{{estimate.company.logo}}"
+       }
+      ]
+     },
+     {
+      "label": "Client",
+      "value": "Client",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{estimate.customer.name}}"
+       },
+       {
+        "label": "Prénom",
+        "value": "{{estimate.customer.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{estimate.customer.last_name}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{estimate.customer.phone}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{estimate.customer.email}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{estimate.customer.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{estimate.customer.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{estimate.customer.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{estimate.customer.postal_code}}"
+       }
+      ]
+     },
+     {
+      "label": "Expéditeur",
+      "value": "Expéditeur",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{estimate.sender.name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{estimate.sender.email}}"
+       }
+      ]
+     },
+     {
+      "label": "Nom",
+      "value": "{{estimate.name}}"
+     },
+     {
+      "label": "Nombre",
+      "value": "{{estimate.number}}"
+     },
+     {
+      "label": "Date d'émission",
+      "value": "{{estimate.issue_date}}"
+     },
+     {
+      "label": "Date d'expiration",
+      "value": "{{estimate.expiry_date}}"
+     },
+     {
+      "label": "Sous-total",
+      "value": "{{estimate.sub_total}}"
+     },
+     {
+      "label": "Currency Code",
+      "value": "{{estimate.currency_code}}"
+     },
+     {
+      "label": "Sub Total",
+      "value": "{{estimate.sub_total}}"
+     },
+     {
+      "label": "Montant de la réduction",
+      "value": "{{estimate.discount_amount}}"
+     },
+     {
+      "label": "Montant de la taxe",
+      "value": "{{estimate.tax_amount}}"
+     },
+     {
+      "label": "Montant total",
+      "value": "{{estimate.total_amount}}"
+     },
+     {
+      "label": "Titre",
+      "value": "{{estimate.title}}"
+     },
+     {
+      "label": "URL",
+      "value": "{{estimate.url}}"
+     },
+     {
+      "label": "Remarque",
+      "value": "{{estimate.note}}"
+     }
+    ]
+   },
+   {
+    "label": "Certificats et contrats",
+    "value": "Certificats et contrats",
+    "children": [
+     {
+      "label": "Nom",
+      "value": "{{document.name}}"
+     },
+     {
+      "label": "URL",
+      "value": "{{document.url}}"
+     },
+     {
+      "label": "Type",
+      "value": "{{document.type}}"
+     },
+     {
+      "label": "Montant total",
+      "value": "{{document.totalAmount}}"
+     },
+     {
+      "label": "Code de devise",
+      "value": "{{document.currencyCode}}"
+     },
+     {
+      "label": "Symbole de devise",
+      "value": "{{document.currencySymbol}}"
+     },
+     {
+      "label": "Date d'expiration",
+      "value": "{{document.expirydate}}"
+     },
+     {
+      "label": "URL de prévisualisation",
+      "value": "{{document.previewUrl}}"
+     },
+     {
+      "label": "URL PDF",
+      "value": "{{document.pdfLink}}"
+     },
+     {
+      "label": "Raisons de refus de document",
+      "value": "{{document.declinedReasons}}"
+     },
+     {
+      "label": "Corps de la raison du refus du document",
+      "value": "{{document.declinedReasonBody}}"
+     },
+     {
+      "label": "Destinataire",
+      "value": "Destinataire",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{document.recipient.firstName}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{document.recipient.lastName}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{document.recipient.email}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{document.recipient.phoneNumber}}"
+       },
+       {
+        "label": "Pays",
+        "value": "{{document.recipient.country}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Receipt",
+    "value": "Receipt",
+    "children": [
+     {
+      "label": "Company",
+      "value": "Company",
+      "children": [
+       {
+        "label": "Name",
+        "value": "{{receipt.company.name}}"
+       },
+       {
+        "label": "Phone",
+        "value": "{{receipt.company.phone}}"
+       },
+       {
+        "label": "Address",
+        "value": "{{receipt.company.address}}"
+       },
+       {
+        "label": "City",
+        "value": "{{receipt.company.city}}"
+       },
+       {
+        "label": "State",
+        "value": "{{receipt.company.state}}"
+       },
+       {
+        "label": "Country",
+        "value": "{{receipt.company.country}}"
+       },
+       {
+        "label": "Website",
+        "value": "{{receipt.company.website}}"
+       },
+       {
+        "label": "Logo",
+        "value": "{{receipt.company.logo}}"
+       }
+      ]
+     },
+     {
+      "label": "Customer",
+      "value": "Customer",
+      "children": [
+       {
+        "label": "Name",
+        "value": "{{receipt.customer.name}}"
+       },
+       {
+        "label": "First Name",
+        "value": "{{receipt.customer.first_name}}"
+       },
+       {
+        "label": "Last Name",
+        "value": "{{receipt.customer.last_name}}"
+       },
+       {
+        "label": "Phone",
+        "value": "{{receipt.customer.phone}}"
+       },
+       {
+        "label": "Email",
+        "value": "{{receipt.customer.email}}"
+       },
+       {
+        "label": "Company",
+        "value": "{{receipt.customer.company}}"
+       },
+       {
+        "label": "Address",
+        "value": "{{receipt.customer.address}}"
+       },
+       {
+        "label": "City",
+        "value": "{{receipt.customer.city}}"
+       },
+       {
+        "label": "State",
+        "value": "{{receipt.customer.state}}"
+       },
+       {
+        "label": "Postal code",
+        "value": "{{receipt.customer.postal_code}}"
+       }
+      ]
+     },
+     {
+      "label": "Number",
+      "value": "{{receipt.number}}"
+     },
+     {
+      "label": "Date Paid",
+      "value": "{{receipt.date_paid}}"
+     },
+     {
+      "label": "Currency Symbol",
+      "value": "{{receipt.currency_symbol}}"
+     },
+     {
+      "label": "Currency Code",
+      "value": "{{receipt.currency_code}}"
+     },
+     {
+      "label": "Sub Total",
+      "value": "{{receipt.sub_total}}"
+     },
+     {
+      "label": "Discount Amount",
+      "value": "{{receipt.discount_amount}}"
+     },
+     {
+      "label": "Tax Amount",
+      "value": "{{receipt.tax_amount}}"
+     },
+     {
+      "label": "Total Amount",
+      "value": "{{receipt.total_amount}}"
+     },
+     {
+      "label": "Title",
+      "value": "{{receipt.title}}"
+     },
+     {
+      "label": "URL",
+      "value": "{{receipt.url}}"
+     },
+     {
+      "label": "facturation diverses",
+      "value": "{{receipt.miscellaneous_charges}}"
+     }
+    ]
+   },
+   {
+    "label": "E-commerce",
+    "value": "E-commerce",
+    "children": [
+     {
+      "label": "URL de la page de paiement",
+      "value": "{{ecommerce.checkout_page_url}}"
+     },
+     {
+      "label": "Page de la liste des produits",
+      "value": "{{ecommerce.product_list_page_url}}"
+     }
+    ]
+   },
+   {
+    "label": "Paiement",
+    "value": "Paiement",
+    "children": [
+     {
+      "label": "Paiement reçu",
+      "value": "Paiement reçu",
+      "children": [
+       {
+        "label": "Source",
+        "value": "{{payment.source}}"
+       },
+       {
+        "label": "Symbole de devise",
+        "value": "{{payment.currency_symbol}}"
+       },
+       {
+        "label": "Code de devise",
+        "value": "{{payment.currency_code}}"
+       },
+       {
+        "label": "Client",
+        "value": "Client",
+        "children": [
+         {
+          "label": "ID",
+          "value": "{{payment.customer.id}}"
+         },
+         {
+          "label": "Prénom",
+          "value": "{{payment.customer.first_name}}"
+         },
+         {
+          "label": "Nom de famille",
+          "value": "{{payment.customer.last_name}}"
+         },
+         {
+          "label": "Nom",
+          "value": "{{payment.customer.name}}"
+         },
+         {
+          "label": "E-mail",
+          "value": "{{payment.customer.email}}"
+         },
+         {
+          "label": "Téléphone",
+          "value": "{{payment.customer.phone}}"
+         },
+         {
+          "label": "Adresse complète",
+          "value": "{{payment.customer.address}}"
+         },
+         {
+          "label": "Ville",
+          "value": "{{payment.customer.city}}"
+         },
+         {
+          "label": "État",
+          "value": "{{payment.customer.state}}"
+         },
+         {
+          "label": "Pays",
+          "value": "{{payment.customer.country}}"
+         },
+         {
+          "label": "Code postal",
+          "value": "{{payment.customer.postal_code}}"
+         }
+        ]
+       },
+       {
+        "label": "Facture",
+        "value": "Facture",
+        "children": [
+         {
+          "label": "Nom",
+          "value": "{{payment.invoice.name}}"
+         },
+         {
+          "label": "Nombre",
+          "value": "{{payment.invoice.number}}"
+         },
+         {
+          "label": "Date d'émission",
+          "value": "{{payment.invoice.issue_date}}"
+         },
+         {
+          "label": "Date d'échéance",
+          "value": "{{payment.invoice.due_date}}"
+         },
+         {
+          "label": "URL",
+          "value": "{{payment.invoice.url}}"
+         },
+         {
+          "label": "Enregistré par",
+          "value": "{{payment.invoice.recorded_by}}"
+         },
+         {
+          "label": "Montant dû",
+          "value": "{{payment.invoice.amount_due}}"
+         },
+         {
+          "label": "Montant payé",
+          "value": "{{payment.invoice.amount_paid}}"
+         }
+        ]
+       },
+       {
+        "label": "Sous-total",
+        "value": "{{payment.sub_total_amount}}"
+       },
+       {
+        "label": "Montant de la réduction",
+        "value": "{{payment.discount_amount}}"
+       },
+       {
+        "label": "Code de réduction",
+        "value": "{{payment.coupon_code}}"
+       },
+       {
+        "label": "Montant de la taxe",
+        "value": "{{payment.tax_amount}}"
+       },
+       {
+        "label": "Créé le",
+        "value": "{{payment.created_on}}"
+       },
+       {
+        "label": "Montant total",
+        "value": "{{payment.total_amount}}"
+       },
+       {
+        "label": "ID de transaction",
+        "value": "{{payment.transaction_id}}"
+       },
+       {
+        "label": "Statut",
+        "value": "{{payment.payment_status}}"
+       },
+       {
+        "label": "Passerelle",
+        "value": "{{payment.gateway}}"
+       },
+       {
+        "label": " 4 derniers chiffres de la carte",
+        "value": "{{payment.card.last4}}"
+       },
+       {
+        "label": "Marque de carte",
+        "value": "{{payment.card.brand}}"
+       },
+       {
+        "label": "Méthode",
+        "value": "{{payment.method}}"
+       },
+       {
+        "label": "facturation diverses",
+        "value": "{{payment.miscellaneous_charges}}"
+       }
+      ]
+     },
+     {
+      "label": "Abonnement",
+      "value": "Abonnement",
+      "children": [
+       {
+        "label": "Source",
+        "value": "{{subscription.source}}"
+       },
+       {
+        "label": "Symbole de devise",
+        "value": "{{subscription.currency_symbol}}"
+       },
+       {
+        "label": "Code de devise",
+        "value": "{{subscription.currency_code}}"
+       },
+       {
+        "label": "Sous-total",
+        "value": "{{subscription.sub_total_amount}}"
+       },
+       {
+        "label": "Montant de la réduction",
+        "value": "{{subscription.discount_amount}}"
+       },
+       {
+        "label": "Montant de la taxe",
+        "value": "{{subscription.tax_amount}}"
+       },
+       {
+        "label": "Montant total",
+        "value": "{{subscription.total_amount}}"
+       },
+       {
+        "label": "Créé le",
+        "value": "{{subscription.created_on}}"
+       },
+       {
+        "label": "Code de réduction",
+        "value": "{{subscription.coupon_code}}"
+       },
+       {
+        "label": "ID d'abonnement",
+        "value": "{{subscription.id}}"
+       },
+       {
+        "label": "Statut de l'abonnement",
+        "value": "{{subscription.status}}"
+       },
+       {
+        "label": "Nom du produit",
+        "value": "{{subscription.global_product.name}}"
+       },
+       {
+        "label": "facturation diverses",
+        "value": "{{subscription.miscellaneous_charges}}"
+       }
+      ]
+     },
+     {
+      "label": "Remboursement",
+      "value": "Remboursement",
+      "children": [
+       {
+        "label": "Source",
+        "value": "{{refund.transaction.entitySourceType}}"
+       },
+       {
+        "label": "Symbole de devise",
+        "value": "{{refund.currency_symbol}}"
+       },
+       {
+        "label": "Code de devise",
+        "value": "{{refund.currency_code}}"
+       },
+       {
+        "label": "ID de transaction",
+        "value": "{{refund.transaction.id}}"
+       },
+       {
+        "label": "ID de remboursement",
+        "value": "{{refund.id}}"
+       },
+       {
+        "label": "Montant du remboursement",
+        "value": "{{refund.amount}}"
+       },
+       {
+        "label": "Statut du remboursement",
+        "value": "{{refund.status}}"
+       },
+       {
+        "label": "Type de remboursement",
+        "value": "{{refund.transaction.status}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Lien de paiement",
+    "value": "Lien de paiement",
+    "children": [
+     {
+      "label": "Nom du lien",
+      "value": "{{paymentLink.link_name}}"
+     },
+     {
+      "label": "URL",
+      "value": "{{paymentLink.url}}"
+     },
+     {
+      "label": "Nom du compte",
+      "value": "{{paymentLink.account_name}}"
+     },
+     {
+      "label": "Nom de l'expéditeur",
+      "value": "{{paymentLink.sender_name}}"
+     },
+     {
+      "label": "Adresse e-mail de l'expéditeur",
+      "value": "{{paymentLink.sender_email}}"
+     },
+     {
+      "label": "Montant total",
+      "value": "{{paymentLink.total_amount}}"
+     },
+     {
+      "label": "Total après l'essai",
+      "value": "{{paymentLink.total_after_trial}}"
+     },
+     {
+      "label": "Contact",
+      "value": "Contact",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{paymentLink.contact.first_name}}"
+       },
+       {
+        "label": "Nom de famille",
+        "value": "{{paymentLink.contact.last_name}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{paymentLink.contact.phone}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{paymentLink.contact.email}}"
+       },
+       {
+        "label": "Adresse",
+        "value": "{{paymentLink.contact.address}}"
+       },
+       {
+        "label": "Ville",
+        "value": "{{paymentLink.contact.city}}"
+       },
+       {
+        "label": "État",
+        "value": "{{paymentLink.contact.state}}"
+       },
+       {
+        "label": "Code postal",
+        "value": "{{paymentLink.contact.postal_code}}"
+       }
+      ]
+     },
+     {
+      "label": "Expéditeur",
+      "value": "Expéditeur",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{paymentLink.sender.name}}"
+       },
+       {
+        "label": "E-mail",
+        "value": "{{paymentLink.sender.email}}"
+       }
+      ]
+     },
+     {
+      "label": "Produit",
+      "value": "Produit",
+      "children": [
+       {
+        "label": "Symbole de devise",
+        "value": "{{paymentLink.product.currency_symbol}}"
+       },
+       {
+        "label": "Code de devise",
+        "value": "{{paymentLink.product.currency_code}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Portail client",
+    "value": "Portail client",
+    "children": [
+     {
+      "label": "Communautés",
+      "value": "Communautés",
+      "children": [
+       {
+        "label": "destinataire",
+        "value": "destinataire",
+        "children": [
+         {
+          "label": "Nom du destinataire",
+          "value": "{{communities_contacts.receiverName}}"
+         },
+         {
+          "label": "niveau ludification",
+          "value": "{{communities_contacts.receiverGamificationLevel}}"
+         }
+        ]
+       },
+       {
+        "label": "Demandeur",
+        "value": "Demandeur",
+        "children": [
+         {
+          "label": "Nom du demande",
+          "value": "{{communities_contacts.requestorName}}"
+         },
+         {
+          "label": "E-mail du demande",
+          "value": "{{communities_contacts.requestorEmail}}"
+         }
+        ]
+       },
+       {
+        "label": "commentaire",
+        "value": "commentaire",
+        "children": [
+         {
+          "label": "auteur",
+          "value": "auteur",
+          "children": [
+           {
+            "label": "Nom de auteur",
+            "value": "{{communities_comment.authorName}}"
+           },
+           {
+            "label": "auteur de l'analytique",
+            "value": "{{communities_comment.authorAvatar}}"
+           }
+          ]
+         },
+         {
+          "label": "contenu",
+          "value": "{{communities_comment.content}}"
+         },
+         {
+          "label": "Nom de l'auteur du commentaire parent",
+          "value": "{{communities_parentComment.authorName}}"
+         }
+        ]
+       },
+       {
+        "label": "partager",
+        "value": "partager",
+        "children": [
+         {
+          "label": "auteur",
+          "value": "auteur",
+          "children": [
+           {
+            "label": "Nom de auteur",
+            "value": "{{communities_post.authorName}}"
+           },
+           {
+            "label": "auteur de l'analytique",
+            "value": "{{communities_post.authorAvatar}}"
+           }
+          ]
+         },
+         {
+          "label": "contenu",
+          "value": "{{communities_post.content}}"
+         }
+        ]
+       },
+       {
+        "label": "Groupe",
+        "value": "Groupe",
+        "children": [
+         {
+          "label": "Nom",
+          "value": "{{communities_group.name}}"
+         },
+         {
+          "label": "Logo",
+          "value": "{{communities_group.logo}}"
+         }
+        ]
+       },
+       {
+        "label": "canal",
+        "value": "canal",
+        "children": [
+         {
+          "label": "Nom",
+          "value": "{{communities_channel.name}}"
+         },
+         {
+          "label": "Le rôle est mis à jour via le Nom du utilisateur",
+          "value": "{{communities_channel.roleUpdatedByUserName}}"
+         },
+         {
+          "label": "Rôle",
+          "value": "{{communities_channel.role}}"
+         }
+        ]
+       },
+       {
+        "label": "événements",
+        "value": "événements",
+        "children": [
+         {
+          "label": "Titre",
+          "value": "{{communities_event.title}}"
+         },
+         {
+          "label": "Date",
+          "value": "{{communities_event.date}}"
+         },
+         {
+          "label": "Heure",
+          "value": "{{communities_event.time}}"
+         },
+         {
+          "label": "emplacement",
+          "value": "{{communities_event.location}}"
+         }
+        ]
+       },
+       {
+        "label": "Paiements",
+        "value": "Paiements",
+        "children": [
+         {
+          "label": "Nom du produit",
+          "value": "{{communities_payments.productName}}"
+         },
+         {
+          "label": "Date",
+          "value": "{{communities_payments.date}}"
+         },
+         {
+          "label": "Jours essai",
+          "value": "{{communities_payments.trialDays}}"
+         },
+         {
+          "label": "saisir",
+          "value": "{{communities_payments.type}}"
+         },
+         {
+          "label": "Statut",
+          "value": "{{communities_payments.status}}"
+         },
+         {
+          "label": "Montant",
+          "value": "{{communities_payments.amount}}"
+         }
+        ]
+       },
+       {
+        "label": "Cours",
+        "value": "Cours",
+        "children": [
+         {
+          "label": "Nom du cours",
+          "value": "{{communities_course.productName}}"
+         },
+         {
+          "label": "Date d'accès",
+          "value": "{{communities_course.timeAccessDays}}"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Cours",
+      "value": "Cours",
+      "children": [
+       {
+        "label": "E-mail",
+        "value": "{{membership_contact.email}}"
+       },
+       {
+        "label": "URL de connexion (lien magique)",
+        "value": "{{membership_contact.login_url}}"
+       },
+       {
+        "label": "Titre de l'offre",
+        "value": "{{membership_contact.offer_title}}"
+       },
+       {
+        "label": "URL de la catégorie",
+        "value": "{{membership_contact.category_url}}"
+       },
+       {
+        "label": "Titre du produit",
+        "value": "{{membership_contact.product_title}}"
+       },
+       {
+        "label": "Titre de la catégorie",
+        "value": "{{membership_contact.category_title}}"
+       },
+       {
+        "label": "E-mail d'assistance",
+        "value": "{{membership_contact.support_email}}"
+       },
+       {
+        "label": "Téléphone",
+        "value": "{{membership_contact.support_phone}}"
+       },
+       {
+        "label": "Nom du site",
+        "value": "{{membership_contact.site_name}}"
+       },
+       {
+        "label": "titre",
+        "value": "{{membership_contact.post_title}}"
+       },
+       {
+        "label": "URL du cours",
+        "value": "{{membership_contact.post_url}}"
+       },
+       {
+        "label": "URL du produit",
+        "value": "{{membership_contact.product_url}}"
+       },
+       {
+        "label": "URL du commentaire",
+        "value": "{{membership_contact.comment_url}}"
+       },
+       {
+        "label": "Nom du destinataire",
+        "value": "{{membership_contact.recipient_name}}"
+       },
+       {
+        "label": "URL d’évaluation",
+        "value": "{{membership_contact.assessment_url}}"
+       },
+       {
+        "label": "Score d'évaluation",
+        "value": "{{membership_contact.assessment_score}}"
+       },
+       {
+        "label": "État de l’évaluation",
+        "value": "{{membership_contact.assessment_status}}"
+       },
+       {
+        "label": "Nom du contact",
+        "value": "{{membership_contact.contact_name}}"
+       },
+       {
+        "label": "Titre de l'évaluation",
+        "value": "{{membership_contact.assessment_title}}"
+       }
+      ]
+     },
+     {
+      "label": "Certificats",
+      "value": "Certificats",
+      "children": [
+       {
+        "label": "URL du certificat",
+        "value": "{{certificate.url}}"
+       }
+      ]
+     },
+     {
+      "label": "facturation",
+      "value": "facturation",
+      "children": [
+       {
+        "label": "Nom de la facture",
+        "value": "{{invoice.invoiceName}}"
+       },
+       {
+        "label": "nombre",
+        "value": "{{invoice.invoiceNumber}}"
+       },
+       {
+        "label": "Montant total",
+        "value": "{{invoice.totalAmount}}"
+       },
+       {
+        "label": "Nom de l'",
+        "value": "{{invoice.companyName}}"
+       },
+       {
+        "label": "Date d'émission",
+        "value": "{{invoice.issueDate}}"
+       },
+       {
+        "label": "Date d'échéance",
+        "value": "{{invoice.dueDate}}"
+       },
+       {
+        "label": "Nom de l’expéditeur",
+        "value": "{{invoice.senderName}}"
+       },
+       {
+        "label": "Nom du destinataire",
+        "value": "{{invoice.recipientName}}"
+       }
+      ]
+     },
+     {
+      "label": "estimation",
+      "value": "estimation",
+      "children": [
+       {
+        "label": "Nom de estimation",
+        "value": "{{estimate.estimateName}}"
+       },
+       {
+        "label": "nombre d'estimations",
+        "value": "{{estimate.estimateNumber}}"
+       },
+       {
+        "label": "Montant total",
+        "value": "{{estimate.totalAmount}}"
+       },
+       {
+        "label": "Nom de l'",
+        "value": "{{estimate.companyName}}"
+       },
+       {
+        "label": "Date d'émission",
+        "value": "{{estimate.issueDate}}"
+       },
+       {
+        "label": "Date d'expiration",
+        "value": "{{estimate.expirationDate}}"
+       },
+       {
+        "label": "Nom du destinataire",
+        "value": "{{estimate.recipientName}}"
+       }
+      ]
+     },
+     {
+      "label": "contrat",
+      "value": "contrat",
+      "children": [
+       {
+        "label": "Nom d'accord",
+        "value": "{{contract.contractName}}"
+       },
+       {
+        "label": "Montant total",
+        "value": "{{contract.totalAmount}}"
+       },
+       {
+        "label": "Date d'émission",
+        "value": "{{contract.issueDate}}"
+       }
+      ]
+     },
+     {
+      "label": "URL de redirection",
+      "value": "{{metadata.redirectionUrl}}"
+     },
+     {
+      "label": "URL de la se connecter (lien magique)",
+      "value": "{{membership_contact.login_url}}"
+     }
+    ]
+   },
+   {
+    "label": "paiement abandonné",
+    "value": "paiement abandonné",
+    "children": [
+     {
+      "label": "Valeur du Panier",
+      "value": "{{abandoned_checkout.cartValue}}"
+     },
+     {
+      "label": "Réduction",
+      "value": "{{abandoned_checkout.discount}}"
+     },
+     {
+      "label": "Lien du panier",
+      "value": "{{abandoned_checkout.cartLink}}"
+     }
+    ]
+   },
+   {
+    "label": "Traitement de commande",
+    "value": "Traitement de commande",
+    "children": [
+     {
+      "label": "Date de Traitement",
+      "value": "{{ecommerce_order_fulfilled_trigger.fulfilledOn}}"
+     },
+     {
+      "label": "ID des produits traités",
+      "value": "{{ecommerce_order_fulfilled_trigger.globalProductIds}}"
+     },
+     {
+      "label": "Nom(s) du produit",
+      "value": "{{ecommerce_order_fulfilled_trigger.fulfilledProductNames}}"
+     },
+     {
+      "label": "Numéro de suivi",
+      "value": "{{ecommerce_order_fulfilled_trigger.trackingNumber}}"
+     },
+     {
+      "label": "Prix",
+      "value": "{{ecommerce_order_fulfilled_trigger.priceName}}"
+     },
+     {
+      "label": "Quantité disponible",
+      "value": "{{ecommerce_order_fulfilled_trigger.availableQuantity}}"
+     },
+     {
+      "label": "Quantité Traitée",
+      "value": "{{ecommerce_order_fulfilled_trigger.fulfilledQty}}"
+     },
+     {
+      "label": "Quantité traitée (par élément)",
+      "value": "{{ecommerce_order_fulfilled_trigger.fulfilledQtyPerItem}}"
+     },
+     {
+      "label": "Statut de traitement",
+      "value": "{{ecommerce_order_fulfilled_trigger.fulfillmentStatus}}"
+     },
+     {
+      "label": "Transporteur",
+      "value": "{{ecommerce_order_fulfilled_trigger.shippingCarrier}}"
+     },
+     {
+      "label": "URL de suivi",
+      "value": "{{ecommerce_order_fulfilled_trigger.trackingUrl}}"
+     },
+     {
+      "label": "URL du statut de la commande",
+      "value": "{{ecommerce_order_fulfilled_trigger.orderStatusUrl}}"
+     },
+     {
+      "label": "Valeur du Panier",
+      "value": "{{ecommerce_order_fulfilled_trigger.cartValue}}"
+     }
+    ]
+   },
+   {
+    "label": "Examiner la soumission",
+    "value": "Examiner la soumission",
+    "children": [
+     {
+      "label": "Examiner le statut",
+      "value": "{{leadgen_ecommerce_review_submitted.status}}"
+     },
+     {
+      "label": "Examiner l'évaluation",
+      "value": "{{leadgen_ecommerce_review_submitted.rating}}"
+     },
+     {
+      "label": "Titre de l'avis",
+      "value": "{{leadgen_ecommerce_review_submitted.headline}}"
+     },
+     {
+      "label": "Examiner le commentaire",
+      "value": "{{leadgen_ecommerce_review_submitted.comment}}"
+     },
+     {
+      "label": "Nom d'utilisateur",
+      "value": "{{leadgen_ecommerce_review_submitted.customer.name}}"
+     }
+    ]
+   },
+   {
+    "label": "IA conversationnelle",
+    "value": "IA conversationnelle",
+    "children": [
+     {
+      "label": "Réponse par IA",
+      "value": "{{ai.response}}"
+     }
+    ]
+   },
+   {
+    "label": "Réservation de service",
+    "value": "Réservation de service",
+    "children": [
+     {
+      "label": "ID",
+      "value": "{{serviceBooking.id}}"
+     },
+     {
+      "label": "Titre",
+      "value": "{{serviceBooking.title}}"
+     },
+     {
+      "label": "Date et heure de début",
+      "value": "{{serviceBooking.start_time}}"
+     },
+     {
+      "label": "Date de début",
+      "value": "{{serviceBooking.only_start_date}}"
+     },
+     {
+      "label": "Heure de début",
+      "value": "{{serviceBooking.only_start_time}}"
+     },
+     {
+      "label": "Date et heure de fin",
+      "value": "{{serviceBooking.end_time}}"
+     },
+     {
+      "label": "Date de fin",
+      "value": "{{serviceBooking.only_end_date}}"
+     },
+     {
+      "label": "Heure de fin",
+      "value": "{{serviceBooking.only_end_time}}"
+     },
+     {
+      "label": "Jour de la semaine",
+      "value": "{{serviceBooking.day_of_week}}"
+     },
+     {
+      "label": "Mois",
+      "value": "{{serviceBooking.month}}"
+     },
+     {
+      "label": "Nom du mois",
+      "value": "{{serviceBooking.month_english}}"
+     },
+     {
+      "label": "Fuseau horaire",
+      "value": "{{serviceBooking.timezone}}"
+     },
+     {
+      "label": "Lien d'annulation",
+      "value": "{{serviceBooking.cancellation_link}}"
+     },
+     {
+      "label": "Lien de reprogrammation",
+      "value": "{{serviceBooking.reschedule_link}}"
+     },
+     {
+      "label": "Lieu de la réunion",
+      "value": "{{serviceBooking.meeting_location}}"
+     },
+     {
+      "label": "Remarques",
+      "value": "{{serviceBooking.notes}}"
+     },
+     {
+      "label": "Services",
+      "value": "{{serviceBooking.booked_services}}",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{#each serviceBooking.services}}\n    {{this.name}}\n{{/each}}"
+       },
+       {
+        "label": "Prix",
+        "value": "{{#each serviceBooking.services}}\n    {{this.price}}\n{{/each}}"
+       },
+       {
+        "label": "Durée",
+        "value": "{{#each serviceBooking.services}}\n    {{this.duration}}\n{{/each}}"
+       },
+       {
+        "label": "Date de début",
+        "value": "{{#each serviceBooking.services}}\n    {{this.only_start_date}}\n{{/each}}"
+       },
+       {
+        "label": "Heure de début",
+        "value": "{{#each serviceBooking.services}}\n    {{this.only_start_time}}\n{{/each}}"
+       },
+       {
+        "label": "Fuseau horaire",
+        "value": "{{#each serviceBooking.services}}\n    {{this.timezone}}\n{{/each}}"
+       },
+       {
+        "label": "Utilisateur assigné",
+        "value": "this.user",
+        "children": [
+         {
+          "label": "Nom complet",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.name}}\n{{/each}}"
+         },
+         {
+          "label": "Prénom",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.first_name}}\n{{/each}}"
+         },
+         {
+          "label": "Nom de famille",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.last_name}}\n{{/each}}"
+         },
+         {
+          "label": "E-mail",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.email}}\n{{/each}}"
+         },
+         {
+          "label": "Téléphone",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.phone}}\n{{/each}}"
+         },
+         {
+          "label": "Téléphone (format brut)",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.phone_raw}}\n{{/each}}"
+         },
+         {
+          "label": "Signature",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.email_signature}}\n{{/each}}"
+         },
+         {
+          "label": "Lien vers le calendrier",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.calendar_link}}\n{{/each}}"
+         },
+         {
+          "label": "Téléphone Twilio",
+          "value": "{{#each serviceBooking.services}}\n    {{this.user.twilio_phone_number}}\n{{/each}}"
+         }
+        ]
+       },
+       {
+        "label": "Module complémentaire de service",
+        "value": "addOns",
+        "children": [
+         {
+          "label": "Nom",
+          "value": "{{#each serviceBooking.services}}\n    {{#if addOns}}\n        Add-ons:\n        {{#each addOns}}\n            {{this.addonName}}\n        {{/each}}\n    {{/if}}\n{{/each}}"
+         },
+         {
+          "label": "Prix",
+          "value": "{{#each serviceBooking.services}}\n    {{#if addOns}}\n        Add-ons:\n        {{#each addOns}}\n            {{this.addonPrice}}\n        {{/each}}\n    {{/if}}\n{{/each}}"
+         },
+         {
+          "label": "Durée",
+          "value": "{{#each serviceBooking.services}}\n    {{#if addOns}}\n        Add-ons:\n        {{#each addOns}}\n            {{this.addonDuration}}\n        {{/each}}\n    {{/if}}\n{{/each}}"
+         },
+         {
+          "label": "Quantité",
+          "value": "{{#each serviceBooking.services}}\n    {{#if addOns}}\n        Add-ons:\n        {{#each addOns}}\n            {{this.addonQuantity}}\n        {{/each}}\n    {{/if}}\n{{/each}}"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Réservation de location",
+    "value": "Réservation de location",
+    "children": [
+     {
+      "label": "ID",
+      "value": "{{rentalBooking.id}}"
+     },
+     {
+      "label": "Titre",
+      "value": "{{rentalBooking.title}}"
+     },
+     {
+      "label": "Nom de l'entreprise de location",
+      "value": "{{rentalBooking.business_name}}"
+     },
+     {
+      "label": "Date et heure de début",
+      "value": "{{rentalBooking.start_time}}"
+     },
+     {
+      "label": "Date de début",
+      "value": "{{rentalBooking.only_start_date}}"
+     },
+     {
+      "label": "Heure de début",
+      "value": "{{rentalBooking.only_start_time}}"
+     },
+     {
+      "label": "Date et heure de fin",
+      "value": "{{rentalBooking.end_time}}"
+     },
+     {
+      "label": "Date de fin",
+      "value": "{{rentalBooking.only_end_date}}"
+     },
+     {
+      "label": "Heure de fin",
+      "value": "{{rentalBooking.only_end_time}}"
+     },
+     {
+      "label": "Jour de la semaine",
+      "value": "{{rentalBooking.day_of_week}}"
+     },
+     {
+      "label": "Nom du mois",
+      "value": "{{rentalBooking.month_name}}"
+     },
+     {
+      "label": "Fuseau horaire",
+      "value": "{{rentalBooking.timezone}}"
+     },
+     {
+      "label": "emplacement",
+      "value": "{{rentalBooking.location}}"
+     },
+     {
+      "label": "Statut de la réservation",
+      "value": "{{rentalBooking.status}}"
+     },
+     {
+      "label": "Montant total",
+      "value": "{{rentalBooking.total_price}}"
+     },
+     {
+      "label": "Montant payé",
+      "value": "{{rentalBooking.amount_paid}}"
+     },
+     {
+      "label": "Montant dû",
+      "value": "{{rentalBooking.amount_due}}"
+     },
+     {
+      "label": "Dépôt de garantie",
+      "value": "{{rentalBooking.security_deposit}}"
+     },
+     {
+      "label": "Statut du paiement",
+      "value": "{{rentalBooking.booking_payment_status}}"
+     },
+     {
+      "label": "Remarques",
+      "value": "{{rentalBooking.notes}}"
+     },
+     {
+      "label": "Annonces",
+      "value": "{{rentalBooking.listings}}",
+      "children": [
+       {
+        "label": "Nom",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.name}}\n{{/each}}"
+       },
+       {
+        "label": "Quantité",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.quantity}}\n{{/each}}"
+       },
+       {
+        "label": "Prix",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.price}}\n{{/each}}"
+       },
+       {
+        "label": "Date et heure de début",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.start_time}}\n{{/each}}"
+       },
+       {
+        "label": "Date de début",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.only_start_date}}\n{{/each}}"
+       },
+       {
+        "label": "Date et heure de fin",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.end_time}}\n{{/each}}"
+       },
+       {
+        "label": "Date de fin",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.only_end_date}}\n{{/each}}"
+       },
+       {
+        "label": "Fuseau horaire",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.timezone}}\n{{/each}}"
+       },
+       {
+        "label": "Statut",
+        "value": "{{#each rentalBooking.listings}}\n    {{this.status}}\n{{/each}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "système Gmail",
+    "value": "système Gmail",
+    "children": [
+     {
+      "label": "Erreur URLdu logo d'e-mail",
+      "value": "{{system_emails.email_logo_url}}"
+     },
+     {
+      "label": "couleur CTA",
+      "value": "{{system_emails.cta_color}}"
+     },
+     {
+      "label": "E-mail de bienvenue",
+      "value": "E-mail de bienvenue",
+      "children": [
+       {
+        "label": "Utilisateur",
+        "value": "Utilisateur",
+        "children": [
+         {
+          "label": "Prénom",
+          "value": "{{user.first_name}}"
+         },
+         {
+          "label": "Nom de famille",
+          "value": "{{user.last_name}}"
+         },
+         {
+          "label": "E-mail",
+          "value": "{{user.email}}"
+         },
+         {
+          "label": "Mot de passe",
+          "value": "{{user.password}}"
+         },
+         {
+          "label": "URL du mot de passe",
+          "value": "{{user.passwordUrl}}"
+         },
+         {
+          "label": "Id de l'utilisateur",
+          "value": "{{user.id}}"
+         },
+         {
+          "label": "Nom",
+          "value": "{{user.name}}"
+         },
+         {
+          "label": "Adresse",
+          "value": "{{user.locations}}"
+         }
+        ]
+       },
+       {
+        "label": "Droit d'auteur",
+        "value": "Droit d'auteur",
+        "children": [
+         {
+          "label": "Année",
+          "value": "{{right_now.year}}"
+         }
+        ]
+       },
+       {
+        "label": "Agence",
+        "value": "Agence",
+        "children": [
+         {
+          "label": "Logo",
+          "value": "{{agency.logo}}"
+         },
+         {
+          "label": "URL",
+          "value": "{{agency.url}}"
+         },
+         {
+          "label": "Nom",
+          "value": "{{agency.name}}"
+         },
+         {
+          "label": "E-mail",
+          "value": "{{agency.email}}"
+         },
+         {
+          "label": "Adresse",
+          "value": "{{agency.address}}"
+         },
+         {
+          "label": "Lien de désinscription",
+          "value": "{{agency.unsubscribeLink}}"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Réinitialiser le mot de passe",
+      "value": "Réinitialiser le mot de passe",
+      "children": [
+       {
+        "label": "Prénom",
+        "value": "{{user.first_name}}"
+       },
+       {
+        "label": "Lien de vérification",
+        "value": "{{user.verification_link}}"
+       }
+      ]
+     },
+     {
+      "label": "Code de vérification",
+      "value": "Code de vérification",
+      "children": [
+       {
+        "label": "Logo de l'agence",
+        "value": "{{agency.logo}}"
+       },
+       {
+        "label": "URL de l'agence",
+        "value": "{{agency.url}}"
+       },
+       {
+        "label": "Nom de l'agence",
+        "value": "{{agency.name}}"
+       },
+       {
+        "label": "E-mail de l'agence",
+        "value": "{{agency.email}}"
+       },
+       {
+        "label": "Adresse de l'agence",
+        "value": "{{agency.address}}"
+       },
+       {
+        "label": "Lien de désinscription",
+        "value": "{{agency.unsubscribe_link}}"
+       },
+       {
+        "label": "Année en cours",
+        "value": "{{right_now.year}}"
+       },
+       {
+        "label": "Adresse e-mail de l'utilisateur",
+        "value": "{{user.email}}"
+       },
+       {
+        "label": "Prénom de l'utilisateur",
+        "value": "{{user.first_name}}"
+       },
+       {
+        "label": "Nom de famille de l'utilisateur",
+        "value": "{{user.last_name}}"
+       },
+       {
+        "label": "Nom d'utilisateur",
+        "value": "{{user.name}}"
+       },
+       {
+        "label": "Id de l'utilisateur",
+        "value": "{{user.id}}"
+       },
+       {
+        "label": "Mot de passe à usage unique de l'utilisateur",
+        "value": "{{user.otp}}"
+       },
+       {
+        "label": "Adresse des utilisateurs",
+        "value": "{{user.locations}}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Valeurs personnalisées",
+    "value": "Custom Values",
+    "children": []
+   }
+  ]
+ },
+ {
+  "menuId": "triggerLinks",
+  "menuTitle": "Liens de déclenchement",
+  "items": []
+ }
+]

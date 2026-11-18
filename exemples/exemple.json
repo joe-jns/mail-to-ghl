@@ -1,0 +1,460 @@
+{
+ "nom": "bienvenue",
+ "locationId": "<locationId>",
+ "templateId": "<id du modèle, dans l URL /emails/templates/<id>/editor>",
+ "ecraser": false,
+ "corps": {
+  "width": 600,
+  "background-color": "#FEF7EE",
+  "body-color": "#FFFFFF"
+ },
+ "texte": {
+  "font-family-paragraph": "Roboto, arial, helvetica, sans-serif",
+  "font-family-heading1": "Poppins, arial, helvetica, sans-serif",
+  "font-family-heading2": "Poppins, arial, helvetica, sans-serif",
+  "font-family": "Roboto, arial, helvetica, sans-serif",
+  "custom-fonts": "Poppins;Roboto",
+  "text-color": "#111111",
+  "text-link-color": "#F8AD45",
+  "text-link-text-decoration": "none"
+ },
+ "bouton": {
+  "font-family": "Poppins, arial, helvetica, sans-serif"
+ },
+ "sections": [
+  {
+   "attrs": {
+    "background-color": "#FFFFFF",
+    "padding-top": 22,
+    "padding-bottom": 22,
+    "padding-left": 40,
+    "padding-right": 40
+   },
+   "colonnes": [
+    {
+     "largeur": 50,
+     "attrs": {
+      "vertical-align": "middle"
+     },
+     "blocs": [
+      {
+       "type": "image",
+       "attrs": {
+        "src": "https://…/votre-logo.png",
+        "alt": "Votre entreprise",
+        "width": 200,
+        "size-mode": "custom",
+        "align": "left",
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       }
+      }
+     ]
+    },
+    {
+     "largeur": 50,
+     "attrs": {
+      "vertical-align": "middle"
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "masquer": "mobile",
+       "contenu": "<p style=\"margin:0;text-align:right;font-family:Roboto,arial,sans-serif;font-size:12px;line-height:16px;color:#4A4A4A;\"><a href=\"{{email.view_in_browser_url}}\" style=\"color:#4A4A4A;text-decoration:none;\">Voir dans le navigateur</a></p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#111111",
+    "padding-top": 52,
+    "padding-bottom": 52,
+    "padding-left": 40,
+    "padding-right": 40
+   },
+   "mobile": {
+    "padding-left": 24,
+    "padding-right": 24,
+    "padding-top": 40,
+    "padding-bottom": 40
+   },
+   "colonnes": [
+    {
+     "largeur": 100,
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 18,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:12px;line-height:16px;letter-spacing:2px;color:#F8AD45;\">BIENVENUE CHEZ NOTRE ÉQUIPE</p>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 18,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h1 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:34px;line-height:40px;color:#FFFFFF;\">Bonjour {{contact.first_name}}, on démarre ensemble.</h1>",
+       "defauts": {
+        "contact.first_name": "à vous"
+       }
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 18,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:16px;line-height:25px;color:#D9D4CC;\">Merci de nous faire confiance. Voici comment se passent les premières semaines, et comment réserver notre premier échange.</p>"
+      },
+      {
+       "type": "bouton",
+       "contenu": "Réserver notre premier appel",
+       "attrs": {
+        "href": "",
+        "align": "left",
+        "background-color": "#F8AD45",
+        "color": "#111111",
+        "border-radius": 8,
+        "inner-padding": "15px 30px",
+        "font-family": "Poppins, arial, helvetica, sans-serif",
+        "font-size": 15,
+        "font-weight": 600,
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#FEF7EE",
+    "padding-top": 44,
+    "padding-bottom": 16,
+    "padding-left": 40,
+    "padding-right": 40
+   },
+   "colonnes": [
+    {
+     "largeur": 100,
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:12px;line-height:16px;letter-spacing:2px;color:#4A4A4A;\">LA SUITE</p>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h2 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:24px;line-height:30px;color:#111111;\">Vos trois prochaines étapes</h2>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#FEF7EE",
+    "padding-top": 12,
+    "padding-bottom": 44,
+    "padding-left": 30,
+    "padding-right": 30
+   },
+   "colonnes": [
+    {
+     "largeur": 33.33,
+     "attrs": {
+      "padding-left": 10,
+      "padding-right": 10
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:34px;line-height:40px;color:#F8AD45;\">01</p>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h3 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:17px;line-height:22px;color:#111111;\">Premier appel</h3>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:13px;line-height:19px;color:#4A4A4A;\">On fait le point sur vos objectifs et votre situation.</p>",
+       "mobile": {
+        "padding-bottom": 24
+       }
+      }
+     ]
+    },
+    {
+     "largeur": 33.33,
+     "attrs": {
+      "padding-left": 10,
+      "padding-right": 10
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:34px;line-height:40px;color:#F8AD45;\">02</p>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h3 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:17px;line-height:22px;color:#111111;\">Plan d'action</h3>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:13px;line-height:19px;color:#4A4A4A;\">Vous recevez un plan clair, étape par étape.</p>",
+       "mobile": {
+        "padding-bottom": 24
+       }
+      }
+     ]
+    },
+    {
+     "largeur": 33.33,
+     "attrs": {
+      "padding-left": 10,
+      "padding-right": 10
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:34px;line-height:40px;color:#F8AD45;\">03</p>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 8,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h3 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:17px;line-height:22px;color:#111111;\">Mise en route</h3>"
+      },
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:13px;line-height:19px;color:#4A4A4A;\">On lance ensemble les premières actions.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#FFFFFF",
+    "padding-top": 40,
+    "padding-bottom": 24,
+    "padding-left": 30,
+    "padding-right": 30
+   },
+   "colonnes": [
+    {
+     "largeur": 40,
+     "attrs": {
+      "padding-left": 10,
+      "padding-right": 10
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<h2 style=\"margin:0;font-family:Poppins,arial,sans-serif;font-weight:700;font-size:24px;line-height:30px;color:#111111;\">Une question ?</h2>"
+      },
+      {
+       "type": "separateur",
+       "attrs": {
+        "border-width": 4,
+        "border-color": "#F8AD45",
+        "width": "48px",
+        "align": "left",
+        "padding-top": 12,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "mobile": {
+        "padding-bottom": 16
+       }
+      }
+     ]
+    },
+    {
+     "largeur": 60,
+     "attrs": {
+      "padding-left": 10,
+      "padding-right": 10
+     },
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 16,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:16px;line-height:25px;color:#111111;\">Répondez simplement à cet email : il arrive directement chez {{user.first_name}}.</p>"
+      },
+      {
+       "type": "bouton",
+       "contenu": "Écrire à {{user.first_name}}",
+       "attrs": {
+        "href": "",
+        "align": "left",
+        "background-color": "#FFFFFF",
+        "color": "#111111",
+        "border-width": 2,
+        "border-color": "#111111",
+        "border-radius": 8,
+        "inner-padding": "10px 20px",
+        "font-family": "Poppins, arial, helvetica, sans-serif",
+        "font-size": 15,
+        "font-weight": 600,
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#FFFFFF",
+    "padding-top": 24,
+    "padding-bottom": 44,
+    "padding-left": 40,
+    "padding-right": 40
+   },
+   "colonnes": [
+    {
+     "largeur": 100,
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0 0 2px;font-family:Roboto,arial,sans-serif;font-size:16px;line-height:25px;color:#4A4A4A;\">À très vite,</p><p style=\"margin:0 0 2px;font-family:Poppins,arial,sans-serif;font-weight:600;font-size:17px;line-height:22px;color:#111111;\">{{user.name}}</p><p style=\"margin:0;font-family:Roboto,arial,sans-serif;font-size:13px;line-height:19px;color:#4A4A4A;\">Votre entreprise</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "attrs": {
+    "background-color": "#111111",
+    "padding-top": 28,
+    "padding-bottom": 28,
+    "padding-left": 40,
+    "padding-right": 40
+   },
+   "colonnes": [
+    {
+     "largeur": 100,
+     "blocs": [
+      {
+       "type": "texte",
+       "attrs": {
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-left": 0,
+        "padding-right": 0
+       },
+       "contenu": "<p style=\"margin:0 0 6px;text-align:center;font-family:Roboto,arial,sans-serif;font-size:12px;line-height:19px;color:#D9D4CC;\">© {{right_now.year}} {{location.name}}. Tous droits réservés.</p><p style=\"margin:0 0 6px;text-align:center;font-family:Roboto,arial,sans-serif;font-size:12px;line-height:19px;color:#D9D4CC;\">{{location.full_address}}</p><p style=\"margin:0;text-align:center;color:#F8AD45;font-family:Roboto,arial,sans-serif;font-size:12px;line-height:19px;\"><a href=\"{{email.unsubscribe_link}}\" style=\"color:#F8AD45;text-decoration:none;\">Se désinscrire</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
